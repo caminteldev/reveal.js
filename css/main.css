@@ -230,12 +230,12 @@ html {
 
 #reveal section img {
 	margin: 30px 0 0 0;
-	background: rgba(255,255,255,0.12);
-	border: 4px solid #eee;
+	background: rgba(255,255,255,0);
+	border: 4px solid #fff;
 	
-	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-	   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-	        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+	   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+	        box-shadow: 0 0 10px rgba(0, 0, 0, 0);
 	
 	-webkit-transition: all .2s linear;
 	   -moz-transition: all .2s linear;
@@ -867,11 +867,11 @@ html {
 	cursor: pointer;
 }
 	#reveal.overview .slides section:hover {
-		background: rgba(0,0,0,0.01);
+		background: rgba(0,174,239,0.01);
 	}
 
 	#reveal.overview .slides section.present {
-		background: rgba(0,0,0,0.01);
+		background: rgba(0,174,239,0.01);
 	}
 #reveal.overview .slides>section.stack {
 	background: none;
