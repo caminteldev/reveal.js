@@ -5,16 +5,6 @@
  */
 
 
-/*********************************************
- * FONT-FACE DEFINITIONS
- *********************************************/
-
-@font-face {
-	font-family: 'League Gothic';
-	src: url('../assets/fonts/leaguegothic/league_gothic-webfont.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
 
 
 /*********************************************
@@ -27,12 +17,12 @@ html, body {
 	margin: 0;
 	overflow: hidden;
 	
-	font-family: 'Lato', Times, 'Times New Roman', serif;
+	font-family: 'Ubuntu', Times, 'Times New Roman', serif;
 	font-size: 36px;
 	font-weight: 200;
 	letter-spacing: -0.02em;
 	
-	color: #eee;
+	color: #003070;
 	
 	width: 100%;
 	height: 100%;
@@ -58,16 +48,12 @@ html {
 #reveal h2, 
 #reveal h3, 
 #reveal h4 {
-	margin: 0 0 20px 0;
+	margin: 90px 0 20px 0;
 	
-	color: #eee;
+	/*color: #00aeea;*/
 	
-	font-family: 'League Gothic', sans-serif;
-	line-height: 0.9em;
-	letter-spacing: 0.02em;
+	font-family: 'Ubuntu', sans-serif;
 	
-	text-transform: uppercase;
-	text-shadow: 0px 0px 6px rgba(0,0,0,0.2);
 }
 
 #reveal h1 { font-size: 136px; 	}
@@ -83,7 +69,7 @@ html {
 	text-shadow: 0px 0px 2px rgba(0,0,0,0.2);
 }
 
-#reveal h1 {
+#revealold h1 {
 	text-shadow: 0 1px 0 #ccc,
                  0 2px 0 #c9c9c9,
                  0 3px 0 #bbb,
@@ -867,7 +853,7 @@ html {
 	padding: 20px 0;
 	opacity: 1;
 	cursor: pointer;
-	background: rgba(0,0,0,0.1);
+	background: rgba(0,0,0,0.01);
 }
 #reveal.overview .slides section .fragment {
     opacity: 1;
@@ -881,11 +867,11 @@ html {
 	cursor: pointer;
 }
 	#reveal.overview .slides section:hover {
-		background: rgba(0,0,0,0.3);
+		background: rgba(0,0,0,0.01);
 	}
 
 	#reveal.overview .slides section.present {
-		background: rgba(0,0,0,0.3);
+		background: rgba(0,0,0,0.01);
 	}
 #reveal.overview .slides>section.stack {
 	background: none;
@@ -921,7 +907,7 @@ html {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: rgba( 0, 0, 0, 0 );
+	background: rgba( 255, 255, 255, 1.0 );
 
 	-webkit-transition: background 800ms ease;
 	   -moz-transition: background 800ms ease;
@@ -939,6 +925,34 @@ html {
 	background: rgba( 0, 0, 0, 0.6 );
 }
 
+.footer {
+	display: none;
+}
 
+.topbar {
+  background-color: #222;
+  background-color: #00aeea;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#009ee9), to(#00aeea));
+  background-image: -moz-linear-gradient(top, #009ee9, #00aeea);
+  background-image: -ms-linear-gradient(top, #009ee9, #00aeea);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #009ee9), color-stop(100%, #00aeea));
+  background-image: -webkit-linear-gradient(top, #009ee9, #00aeea);
+  background-image: -o-linear-gradient(top, #009ee9, #00aeea);
+  background-image: linear-gradient(top, #009ee9, #00aeea);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009ee9', endColorstr='#00aeea', GradientType=0);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  padding-left: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.topbar p {
+  font-size: 20px;
+  margin: 0 0 0 0;
+  color: #FFF;
+}
 
 
