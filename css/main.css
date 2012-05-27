@@ -956,3 +956,23 @@ html {
 }
 
 
+.simpleborder {
+  border-color: rgb(208, 209, 211);
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  line-height: 0px;
+  padding-bottom: -2px;
+  position: relative; /* to allow things to be positioned on top of it absolutely*/
+}
+
+.simpleborder ul {
+  list-style-type: none;
+  margin-top: 18px;
+  margin-left: 15px;
+}
+
+.simpleborder li {
+	line-height: 18px;
+}
+
